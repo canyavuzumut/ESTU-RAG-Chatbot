@@ -44,5 +44,18 @@ python3 -m venv venv
 source venv/bin/activate  # macOS/Linux
 # venv\Scripts\activate # Windows
 
-
+### 2. Bağımlılıkları Yükleme
 pip install -r requirements.txt
+
+### 3. API Anahtarını Tanımlama
+export GEMINI_API_KEY="BURAYA_KENDİ_ANAHTARINIZI_YAZIN"
+
+### 4. Veritabanını Oluşturma (Ingestion)
+python3 ingest.py
+
+### 5. Uygulamayı Başlatma
+uvicorn main:app --reload
+
+### Kullanım ve Test
+
+Uygulama çalışırken tarayıcınızı açın: http://127.0.0.1:8000
