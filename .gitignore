@@ -1,0 +1,13 @@
+# Python Sanal Ortamı
+venv/
+__pycache__/
+*.pyc
+*.log
+
+# Hassas Bilgiler ve Vektör Veritabanı
+chroma_db/
+.env # Eğer API anahtarını buraya kaydetseydik
+
+# LlamaIndex/Model Cache'leri
+.llama_index/
+.huggingface/

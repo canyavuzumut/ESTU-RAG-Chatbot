@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pandas
+llamaindex # RAG orkestrasyonu için
+pydantic
+chroma-db # Lokal vektör veritabanı (hızlı başlangıç için ideal)
+sentence-transformers # Embedding modeli için
